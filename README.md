@@ -17,11 +17,15 @@ This skin is based off of the "Media Player 12" skin by sebweber, however has be
 
 **Miniplayer:**
 
-![image](https://github.com/user-attachments/assets/bf10a985-3866-436f-8a5f-efd72ec7af05)
+![image](https://github.com/user-attachments/assets/a48e9584-4338-498a-9e0d-baef38345f1f)
+
+**Miniplayer Volume Control:**
+
+![image](https://github.com/user-attachments/assets/234f7604-530e-4435-a118-3531a06ed126)
 
 **Regular Player:**
 
-![image](https://github.com/user-attachments/assets/884fa91d-e2ed-4f47-b452-deaf6075e2d6)
+![image](https://github.com/user-attachments/assets/7909d5d7-cee5-4209-a7aa-34550710b33c)
 
 **Full Screen:**
 ![image](https://github.com/user-attachments/assets/75263cd7-9677-4100-9b98-80a0e7074a2f)
