@@ -49,7 +49,7 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 
 * To exit the mini-player and return to normal playback, click the maximize button at the top of the window.
 
-* To exit the volume slider, click on the border of its box. (I tried my best, this was the most "seamless" solution.
+* To exit the volume slider, click on the border of its box. (I tried my best, this was the most "seamless" solution.)
 
 ### Bugs
 
