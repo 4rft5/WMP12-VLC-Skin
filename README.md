@@ -51,6 +51,8 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 
 * To exit the volume slider, click on the border of its box. (I tried my best, this was the most "seamless" solution.)
 
+* Because of the lack of semi-transparency, the "hitbox" for the volume selector in the mini-player is just the arrow, nothing else. It's a little hard to click sometimes.
+
 ### Bugs
 
 * I tried my best to get video playback to work with the miniplayer and controls, and got close, but at some point VLC gave up trying to hide the "you're supposed to hide this hex code" color, so I had to remove the controls. If you play a video in the mini-player, you have to click the maximize button to exit to get to proper controls.
