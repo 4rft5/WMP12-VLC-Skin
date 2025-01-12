@@ -39,7 +39,7 @@ Download the .vlt skinfile from releases and place it in your `C:\Program Files\
 Then, open VLC, use CTRL+P to open preferences, Interface tab, and select "Use Custom Skin". Press `Choose:` to bring up the skins folder where your saved skin is.
 
 <hr>
-## ''Features''
+## ``Features``
 
 Because of the aforementioned lack of modern amenities in the editor, some things had to be bodged to work, such as the mini-player and the volume for the mini-player. I tried my best to implement them, however they're not perfect.
 
