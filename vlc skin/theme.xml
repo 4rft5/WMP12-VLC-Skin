@@ -1,0 +1,319 @@
+<!DOCTYPE Theme PUBLIC "-//VideoLAN//DTD VLC Skins V2.0//EN" "skin.dtd">
+<Theme version="2.0">
+  <ThemeInfo name="WMP12-VLC-Skin" author="4rft5" email="" webpage="http://4rft5.com"/>
+
+  <!-- Created using the VLC Skin Editor 0.8.5.dev (http://www.videolan.org/vlc/skineditor.html)-->
+  <!-- Based on the Media Player 12 skin by sebweber -->
+
+  <Bitmap id="body" file="body.PNG" alphacolor="#FF00FF">
+    <SubBitmap id="01" x="0" y="0" height="7" width="7"/>
+    <SubBitmap id="02" x="7" y="0" height="7" width="608"/>
+    <SubBitmap id="03" x="615" y="0" height="7" width="7"/>
+    <SubBitmap id="04" x="0" y="7" height="17" width="7"/>
+    <SubBitmap id="05" x="7" y="7" height="17" width="4"/>
+    <SubBitmap id="06" x="11" y="7" height="17" width="600"/>
+    <SubBitmap id="07" x="611" y="7" height="17" width="4"/>
+    <SubBitmap id="08" x="615" y="7" height="17" width="7"/>
+    <SubBitmap id="09" x="0" y="24" height="37" width="7"/>
+    <SubBitmap id="10" x="7" y="24" height="37" width="4"/>
+    <SubBitmap id="11" x="11" y="24" height="37" width="600"/>
+    <SubBitmap id="12" x="611" y="24" height="37" width="4"/>
+    <SubBitmap id="13" x="615" y="24" height="37" width="7"/>
+    <SubBitmap id="14" x="0" y="61" height="158" width="7"/>
+    <SubBitmap id="15" x="0" y="219" height="1" width="7"/>
+    <SubBitmap id="16" x="0" y="220" height="158" width="7"/>
+    <SubBitmap id="17" x="7" y="61" height="317" width="1"/>
+    <SubBitmap id="18" x="8" y="61" height="317" width="443"/>
+    <SubBitmap id="19" x="451" y="61" height="317" width="164"/>
+    <SubBitmap id="20" x="615" y="61" height="158" width="7"/>
+    <SubBitmap id="21" x="615" y="219" height="1" width="7"/>
+    <SubBitmap id="22" x="615" y="220" height="158" width="7"/>
+    <SubBitmap id="23" x="0" y="378" height="62" width="7"/>
+    <SubBitmap id="24" x="7" y="378" height="62" width="587"/>
+    <SubBitmap id="25" x="594" y="378" height="62" width="1"/>
+    <SubBitmap id="26" x="595" y="378" height="62" width="20"/>
+    <SubBitmap id="27" x="615" y="378" height="62" width="7"/>
+    <SubBitmap id="28" x="0" y="440" height="7" width="7"/>
+    <SubBitmap id="29" x="7" y="440" height="7" width="587"/>
+    <SubBitmap id="30" x="594" y="440" height="7" width="1"/>
+    <SubBitmap id="31" x="595" y="440" height="7" width="20"/>
+    <SubBitmap id="32" x="615" y="440" height="7" width="7"/>
+    <SubBitmap id="33" x="8" y="283" height="96" width="100"/>
+    <SubBitmap id="34" x="108" y="283" height="96" width="243"/>
+    <SubBitmap id="35" x="351" y="283" height="96" width="100"/>
+    <SubBitmap id="36" x="100" y="388" height="50" width="420"/>
+    <SubBitmap id="36a" x="50" y="50" height="50" width="500"/>
+  </Bitmap>
+  <Bitmap id="min_max_close" file="windowcontrolbuttons.png" alphacolor="#FF00FF">
+    <SubBitmap id="min_normal" x="0" y="0" height="29" width="46"/>
+    <SubBitmap id="max_normal" x="46" y="0" height="29" width="46"/>
+    <SubBitmap id="unmax_normal" x="92" y="0" height="29" width="45"/>
+    <SubBitmap id="close_normal" x="137" y="0" height="29" width="46"/>
+    <SubBitmap id="min_over" x="0" y="29" height="29" width="46"/>
+    <SubBitmap id="max_over" x="46" y="29" height="29" width="46"/>
+    <SubBitmap id="unmax_over" x="92" y="29" height="29" width="45"/>
+    <SubBitmap id="close_over" x="137" y="29" height="29" width="46"/>
+    <SubBitmap id="min_click" x="0" y="58" height="29" width="46"/>
+    <SubBitmap id="max_click" x="46" y="58" height="29" width="46"/>
+    <SubBitmap id="unmax_click" x="92" y="58" height="29" width="45"/>
+    <SubBitmap id="close_click" x="137" y="58" height="29" width="46"/>
+  </Bitmap>
+  <Bitmap id="random" file="random.PNG" alphacolor="#FF00FF">
+    <SubBitmap id="random_off_normal" x="0" y="0" height="27" width="27"/>
+    <SubBitmap id="random_off_over" x="28" y="0" height="27" width="27"/>
+    <SubBitmap id="random_off_click" x="56" y="0" height="27" width="27"/>
+    <SubBitmap id="random_on_normal" x="0" y="28" height="27" width="27"/>
+    <SubBitmap id="random_on_over" x="28" y="28" height="27" width="27"/>
+    <SubBitmap id="random_on_click" x="56" y="28" height="27" width="27"/>
+  </Bitmap>
+  <Bitmap id="repeat" file="repeat.PNG" alphacolor="#FF00FF">
+    <SubBitmap id="repeat_off_normal" x="0" y="0" height="27" width="27"/>
+    <SubBitmap id="repeat_off_over" x="28" y="0" height="27" width="27"/>
+    <SubBitmap id="repeat_off_click" x="56" y="0" height="27" width="27"/>
+    <SubBitmap id="repeat_on_normal" x="0" y="28" height="27" width="27"/>
+    <SubBitmap id="repeat_on_over" x="28" y="28" height="27" width="27"/>
+    <SubBitmap id="repeat_on_click" x="56" y="28" height="27" width="27"/>
+  </Bitmap>
+  <Bitmap id="stop" file="stop.PNG" alphacolor="#FF00FF">
+    <SubBitmap id="stop_off" x="0" y="0" height="27" width="27"/>
+    <SubBitmap id="stop_normal" x="0" y="0" height="27" width="27"/>
+    <SubBitmap id="stop_over" x="56" y="0" height="27" width="27"/>
+    <SubBitmap id="stop_click" x="84" y="0" height="27" width="27"/>
+  </Bitmap>
+  <Bitmap id="play_pause" file="playpause.png" alphacolor="#FF00FF">
+    <SubBitmap id="pause_normal" x="0" y="0" height="44" width="44"/>
+    <SubBitmap id="pause_over" x="44" y="0" height="44" width="44"/>
+    <SubBitmap id="pause_click" x="88" y="0" height="44" width="44"/>
+    <SubBitmap id="play_normal" x="0" y="44" height="44" width="44"/>
+    <SubBitmap id="play_over" x="44" y="44" height="44" width="44"/>
+    <SubBitmap id="play_click" x="88" y="44" height="44" width="44"/>
+  </Bitmap>
+  <Bitmap id="control" file="control.PNG" alphacolor="#FF00FF">
+    <SubBitmap id="rw_off" x="0" y="0" height="28" width="54"/>
+    <SubBitmap id="rw_normal" x="0" y="0" height="28" width="54"/>
+    <SubBitmap id="rw_over" x="110" y="0" height="28" width="54"/>
+    <SubBitmap id="rw_click" x="165" y="0" height="28" width="54"/>
+    <SubBitmap id="ff_off" x="0" y="29" height="28" width="54"/>
+    <SubBitmap id="ff_normal" x="0" y="29" height="28" width="54"/>
+    <SubBitmap id="ff_over" x="110" y="29" height="28" width="54"/>
+    <SubBitmap id="ff_click" x="165" y="29" height="28" width="54"/>
+  </Bitmap>
+  <Bitmap id="vlc_logo" file="vlc_logo.PNG" alphacolor="#FF00FF"/>
+  <Bitmap id="video_slider" file="video_slider.PNG" alphacolor="#FF00FF">
+    <SubBitmap id="video_slider_normal" x="0" y="0" height="9" width="16"/>
+    <SubBitmap id="video_slider_over" x="17" y="0" height="9" width="16"/>
+    <SubBitmap id="video_slider_click" x="34" y="0" height="9" width="16"/>
+  </Bitmap>
+  <Bitmap id="video_slider_back" file="video_slider_back.PNG" alphacolor="#FF00FF"/>
+  <Bitmap id="minislider" file="minisliderback.PNG" alphacolor="#FF00FF"/>
+  <Bitmap id="minitimeslider" file="minitimeslider.PNG" alphacolor="#FF00FF"/>
+  <Bitmap id="audio" file="audio.PNG" alphacolor="#FF00FF">
+    <SubBitmap id="vol0_normal" x="0" y="0" height="27" width="27"/>
+    <SubBitmap id="vol0_over" x="28" y="0" height="27" width="27"/>
+    <SubBitmap id="vol0_click" x="56" y="0" height="27" width="27"/>
+    <SubBitmap id="vol1_normal" x="0" y="28" height="27" width="27"/>
+    <SubBitmap id="vol1_over" x="28" y="28" height="27" width="27"/>
+    <SubBitmap id="vol1_click" x="56" y="28" height="27" width="27"/>
+    <SubBitmap id="vol2_normal" x="0" y="56" height="27" width="27"/>
+    <SubBitmap id="vol2_over" x="28" y="56" height="27" width="27"/>
+    <SubBitmap id="vol2_click" x="56" y="56" height="27" width="27"/>
+    <SubBitmap id="vol3_normal" x="0" y="84" height="27" width="27"/>
+    <SubBitmap id="vol3_over" x="28" y="84" height="27" width="27"/>
+    <SubBitmap id="vol3_click" x="56" y="84" height="27" width="27"/>
+    <SubBitmap id="mute_normal" x="0" y="112" height="27" width="27"/>
+    <SubBitmap id="mute_over" x="28" y="112" height="27" width="27"/>
+    <SubBitmap id="mute_click" x="56" y="112" height="27" width="27"/>
+  </Bitmap>
+  <Bitmap id="audio_slider" file="audio_slider.PNG" alphacolor="#FF00FF">
+    <SubBitmap id="audio_slider_normal" x="0" y="0" height="13" width="12"/>
+    <SubBitmap id="audio_slider_over" x="13" y="0" height="13" width="12"/>
+    <SubBitmap id="audio_slider_click" x="26" y="0" height="13" width="12"/>
+  </Bitmap>
+  <Bitmap id="audio_slider_back" file="audio_slider_back.PNG" alphacolor="#FF00FF"/>
+  <Bitmap id="minislider" file="minisliderback.png" alphacolor="#FF00FF"/>
+  <Bitmap id="volumepopout" file="volumepopout.png" alphacolor="#FF00FF"/>
+  <Bitmap id="volumedropdown" file="volumedropdown.png" alphacolor="#FF00FF">
+    <SubBitmap id="voldrop_normal" x="0" y="0" height="23" width="13"/>
+    <SubBitmap id="voldrop_over" x="13" y="0" height="23" width="13"/>
+    <SubBitmap id="voldrop_click" x="26" y="0" height="23" width="13"/>
+  </Bitmap>
+  <Font id="segoe11" file="SegoeUI.ttf" size="11"/>
+  <Font id="segoe12" file="SegoeUI.ttf"/>
+  <Bitmap id="switch_main" file="switch_main.PNG" alphacolor="#FF00FF">
+    <SubBitmap id="switch_normal" x="0" y="0" height="23" width="22"/>
+    <SubBitmap id="switch_over" x="23" y="0" height="23" width="23"/>
+    <SubBitmap id="switch_click" x="46" y="0" height="23" width="23"/>
+  </Bitmap>
+  <Bitmap id="switch_full" file="switch_full.PNG" alphacolor="#FF00FF">
+    <SubBitmap id="fswitch_normal" x="0" y="0" height="23" width="22"/>
+    <SubBitmap id="fswitch_over" x="23" y="0" height="23" width="23"/>
+    <SubBitmap id="fswitch_click" x="46" y="0" height="23" width="23"/>
+  </Bitmap>
+  <Bitmap id="fullscreencontrols" file="fullscreencontrols.png" alphacolor="#FF00FF"/>
+  <Bitmap id="bild08" file="video_slider.PNG" alphacolor="#FF00FF"/>
+  <Bitmap id="body_design" file="back_design.png" alphacolor="#FF00FF">
+    <SubBitmap id="d01" x="0" y="0" height="20" width="238"/>
+    <SubBitmap id="d02" x="0" y="20" height="248" width="238"/>
+  </Bitmap>
+  <Bitmap id="wmpbg" file="WMP_12.png" alphacolor="#FF00FF"/>
+  <Bitmap id="minibg" file="mini_bg.png" alphacolor="#FF00FF"/>
+  <Bitmap id="noart" file="noart.png" alphacolor="#FF00FF"/>
+  <Bitmap id="noartmini" file="noartmini.png" alphacolor="#FF00FF"/>
+  <Bitmap id="ff_rw_stop_nouse" file="ff_rw_stop_nouse.png" alphacolor="#FF00FF">
+    <SubBitmap id="rw_nouse" x="0" y="0" height="28" width="54"/>
+    <SubBitmap id="ff_nouse" x="4" y="30" height="25" width="48"/>
+    <SubBitmap id="stop_nouse" x="55" y="0" height="26" width="27"/>
+  </Bitmap>
+
+  <Window id="main" x="300" y="300">
+    <Layout id="mainplayer" width="622" height="447" maxwidth="7680" maxheight="4800">
+      <Image id="image_01" image="01" action="move"/>
+      <Image id="image_02" x="7" image="02" action="move" action2="main.maximize();" rightbottom="righttop"/>
+      <Image id="image_03" x="615" image="03" action="resizeE" lefttop="righttop" rightbottom="righttop"/>
+      <Image id="image_04" y="7" image="04" action="move"/>
+      <Image id="image_05" x="7" y="7" image="05" action="move" action2="main.maximize();"/>
+      <Image id="image_06" x="11" y="7" image="06" action="move" action2="main.maximize();" rightbottom="righttop"/>
+      <Image id="image_06b" x="11" y="7" image="06" action="move" action2="main.unmaximize();" rightbottom="righttop" visible="main.isMaximized"/>
+      <Image id="image_07" x="611" y="7" image="07" action="move" action2="main.maximize();" lefttop="righttop" rightbottom="righttop"/>
+      <Image id="image_08" x="615" y="7" image="08" action="resizeE" lefttop="righttop" rightbottom="righttop"/>
+      <Image id="image_09" y="24" image="09" action="move"/>
+      <Image id="image_10" x="7" y="24" image="10" action="move"/>
+      <Image id="image_11" x="11" y="24" image="11" action="move" rightbottom="righttop"/>
+      <Image id="image_12" x="611" y="24" image="12" action="move" lefttop="righttop" rightbottom="righttop"/>
+      <Image id="image_13" x="615" y="24" image="13" action="resizeE" lefttop="righttop" rightbottom="righttop"/>
+      <Image id="image_14" y="61" image="14" action="move"/>
+      <Image id="image_15" y="219" image="15" action="move" rightbottom="leftbottom"/>
+      <Image id="image_16" y="220" image="16" action="move" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Image id="image_17" x="7" y="61" image="17" action="move" rightbottom="leftbottom"/>
+      <Image id="image_18" x="8" y="61" image="18" action="move" rightbottom="rightbottom"/>
+      <Image id="image_19" x="451" y="61" image="19" action="move" lefttop="righttop" rightbottom="rightbottom"/>
+      <Image id="image_20" x="615" y="61" image="20" action="resizeE" lefttop="righttop" rightbottom="righttop"/>
+      <Image id="image_21" x="615" y="219" image="21" action="resizeE" lefttop="righttop" rightbottom="rightbottom"/>
+      <Image id="image_22" x="615" y="220" image="22" action="resizeE" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Image id="image_23" y="378" image="23" action="move" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Image id="image_24" x="7" y="378" image="24" action="move" lefttop="leftbottom" rightbottom="rightbottom"/>
+      <Image id="image_25" x="594" y="378" image="25" action="move" lefttop="leftbottom" rightbottom="rightbottom"/>
+      <Image id="image_26" x="595" y="378" image="26" action="move" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Image id="image_27" x="615" y="378" image="27" action="resizeE" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Image id="image_28" y="440" image="28" action="resizeS" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Image id="image_29" x="7" y="440" image="29" action="resizeS" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Image id="image_30" x="594" y="440" image="30" action="resizeS" lefttop="leftbottom" rightbottom="rightbottom"/>
+      <Image id="image_31" x="595" y="440" image="31" action="resizeS" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Image id="image_32" x="615" y="440" image="32" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Image id="image_36a" x="70" y="388" image="36a" lefttop="leftbottom" rightbottom="leftbottom"/>
+      <Video id="video_main" x="1" y="30" width="620" height="348" rightbottom="rightbottom"/>
+      <Image id="wmp_background" x="1" y="30" image="wmpbg" action="move" action2="vlc.fullscreen()" resize="scale" rightbottom="rightbottom" visible="vlc.hasVout(false)"/>
+      <Slider id="slider_video" x="17" y="383" points="(0,1),(589,1)" value="time" tooltiptext="Seek" up="video_slider_normal" down="video_slider_click" over="video_slider_over" lefttop="leftbottom" rightbottom="rightbottom" visible="vlc.isSeekable">
+        <SliderBackground id="background_video" image="video_slider_back" nbvert="590"/>
+      </Slider>
+      <Image id="image_logo" x="7" y="4" image="vlc_logo" action2="main.unmaximize();vlc.quit();"/>
+      <Button up="min_normal" down="min_click" over="min_over" action="vlc.minimize();" id="button_min" x="485" lefttop="righttop" rightbottom="righttop" tooltiptext="Minimize"/>
+      <Checkbox state="main.isMaximized" up1="max_normal" up2="unmax_normal" down1="max_click" down2="unmax_click" over1="max_over" over2="unmax_over" action1="main.maximize()" action2="main.unmaximize()" tooltiptext1="Maximize" tooltiptext2="Restore Down" id="button_minmax" x="531" lefttop="righttop" rightbottom="righttop"/>
+      <Button up="close_normal" down="close_click" over="close_over" action="main.unmaximize();vlc.quit();" id="button_close" x="577" lefttop="righttop" rightbottom="righttop" tooltiptext="Close"/>
+      <Panel id="controls" x="100" y="388" width="420" height="50" rightbottom="rightbottom" xkeepratio="true">
+        <Image id="image_36" image="36" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Checkbox state="playlist.isRandom" up1="random_off_normal" up2="random_on_normal" down1="random_off_click" down2="random_on_click" over1="random_off_over" over2="random_on_over" action1="playlist.setRandom(true);" action2="playlist.setRandom(false);" tooltiptext1="Turn shuffle on" tooltiptext2="Turn shuffle off" id="checkbox_random" x="30" y="12" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Checkbox state="playlist.isLoop" up1="repeat_off_normal" up2="repeat_on_normal" down1="repeat_off_click" down2="repeat_on_click" over1="repeat_off_over" over2="repeat_on_over" action1="playlist.setLoop(true);" action2="playlist.setLoop(false);" tooltiptext1="Turn repeat on" tooltiptext2="Turn repeat off" id="checkbox_loop3" x="60" y="12" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Image id="image_stop" x="105" y="13" image="stop_nouse" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Button up="stop_normal" down="stop_click" over="stop_over" action="vlc.stop();" id="button_stop" x="105" y="12" lefttop="leftbottom" rightbottom="leftbottom" help="Stop" visible="vlc.isSeekable" tooltiptext="stop"/>
+        <Image id="image_rw" x="138" y="12" image="rw_nouse" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Button up="rw_normal" down="rw_click" over="rw_over" action="playlist.previous();" id="button_rw" x="138" y="12" lefttop="leftbottom" rightbottom="leftbottom" visible="vlc.isSeekable" tooltiptext="Press to rewind"/>
+        <Image id="image_ff" x="230" y="13" image="ff_nouse" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Button up="ff_normal" down="ff_click" over="ff_over" action="playlist.next();" id="button_ff" x="227" y="13" lefttop="leftbottom" rightbottom="leftbottom" visible="vlc.isSeekable" tooltiptext="Press to fast-forward"/>
+        <Checkbox state="vlc.isPlaying" up1="play_normal" up2="pause_normal" down1="play_click" down2="pause_click" over1="play_over" over2="pause_over" action1="vlc.play();" action2="vlc.pause();" tooltiptext1="Play" tooltiptext2="Pause" id="checkbox_play_pause" x="188" y="3" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Checkbox state="vlc.isMute" up1="vol2_normal" up2="mute_normal" down1="vol2_click" down2="mute_click" over1="vol2_over" over2="mute_over" action1="vlc.mute();" action2="vlc.mute();" tooltiptext1="Mute" tooltiptext2="Sound" id="checkboc_audio" x="295" y="12" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Slider id="slider_audio" x="335" y="24" points="(0,1),(62,1)" value="volume" tooltiptext="$V%" up="audio_slider_normal" down="audio_slider_click" over="audio_slider_over" lefttop="leftbottom" rightbottom="leftbottom">
+          <SliderBackground id="background_audio" image="audio_slider_back" nbvert="63"/>
+        </Slider>
+        <Text text="$T" font="segoe12" alignment="right" color="#FFFFFF" id="text_time" x="-66" y="17" width="55" lefttop="leftbottom" rightbottom="leftbottom" visible="vlc.isSeekable"/>
+      </Panel>
+      <Button up="fswitch_normal" down="fswitch_click" over="fswitch_over" action="vlc.fullscreen();main.hide();miniplayer.show()" id="fullscreen_switch" x="575" y="400" lefttop="rightbottom" rightbottom="rightbottom" tooltiptext="View full screen"/>
+      <Button up="switch_normal" down="switch_click" over="switch_over" action="main.hide();miniplayer.show();" id="button_switch" x="550" y="400" lefttop="rightbottom" rightbottom="rightbottom" tooltiptext="View mini-player"/>
+      <Image id="noart_img" x="192" y="100" image="noart" rightbottom="righttop" xkeepratio="true" ykeepratio="true" resize="scale2" art="true" width="236" height="236" action="move" visible="vlc.hasAudio"/>
+      <Text text="$N" font="segoe12" color="#FFFFFF" id="text_now_playing" x="10" y="41" width="600" visible="vlc.hasAudio"/>
+    </Layout>
+  </Window>
+  <Window id="miniplayer" visible="false" x="238" y="268">
+    <Layout id="miniplayer" width="238" height="268" minwidth="238" maxwidth="238" minheight="268" maxheight="268">
+      <Image id="minibackground" image="minibg"/>
+      <Image id="noart_mini" x="1" y="32" image="noartmini" rightbottom="righttop" xkeepratio="true" ykeepratio="true" resize="scale2" art="true" width="236" height="236" action="move" visible="vlc.hasAudio"/>
+      <Video id="minivideo" x="1" y="31" width="236" height="236" rightbottom="rightbottom" visible="vlc.hasVout"/>
+      <Image id="image_d01" image="d01" action="move"/>
+      <Image id="image_d02" y="20" image="d02" action="move"/>
+      <Image id="image_d_logo" x="7" y="5" image="vlc_logo" action2="vlc.quit();"/>
+      <Text text="$N" font="segoe12" color="#F0F0F0" id="text_d_name" x="10" y="41" width="217" visible="vlc.isSeekable"/>
+      <Button up="min_normal" down="min_click" over="min_over" action="vlc.minimize();" id="button_d_min" x="101" tooltiptext="Minimize"/>
+      <Button up="max_normal" down="max_click" over="max_over" action="miniplayer.hide();main.show();" id="button_d_switch" x="147" tooltiptext="Exit mini-player mode"/>
+      <Button up="close_normal" down="close_click" over="close_over" action="vlc.quit();" id="button_d_close" x="193" tooltiptext="Close"/>
+      <Slider id="slider_d_video" x="17" y="212" points="(0,1),(205,1)" value="time" tooltiptext="$T" up="video_slider_normal" down="video_slider_click" over="video_slider_over" visible="vlc.isSeekable">
+        <SliderBackground id="minislidermain" image="minitimeslider" nbvert="205"/>
+      </Slider>
+      <Image id="image_d_rw" x="48" y="226" image="rw_nouse"/>
+      <Button up="rw_normal" down="rw_click" over="rw_over" action="playlist.previous();" id="button_d_rw" x="48" y="226" visible="vlc.isSeekable" tooltiptext="Press to rewind"/>
+      <Image id="image_d_ff" x="139" y="227" image="ff_nouse"/>
+      <Button up="ff_normal" down="ff_click" over="ff_over" action="playlist.next();" id="button_d_ff" x="134" y="226" visible="vlc.isSeekable" tooltiptext="Press to fast-forward"/>
+      <Checkbox state="vlc.isPlaying" up1="play_normal" up2="pause_normal" down1="play_click" down2="pause_click" over1="play_over" over2="pause_over" action1="vlc.play();" action2="vlc.pause();" tooltiptext1="Play" tooltiptext2="Pause" id="checkbox_d_play_pause" x="97" y="217"/>
+      <Image id="image_d_Stop" x="20" y="226" image="stop_nouse"/>
+      <Button up="stop_normal" down="stop_click" over="stop_over" action="vlc.stop();" id="button_d_stop" x="20" y="225" visible="vlc.isSeekable" tooltiptext="Stop"/>
+      <Checkbox state="vlc.isMute" up1="vol2_normal" up2="mute_normal" down1="vol2_click" down2="mute_click" over1="vol2_over" over2="mute_over" action1="vlc.mute();" action2="vlc.mute();" tooltiptext1="Mute" tooltiptext2="Sound" id="checkbox_d_audio" x="190" y="227"/>
+      <Button up="voldrop_normal" down="voldrop_click" over="voldrop_over" action="miniplayer.hide();miniplayervol.show();" id="vol_dropdown" x="214" y="229" tooltiptext="Volume"/>
+    </Layout>
+  </Window>
+  <Window id="miniplayervol" visible="false" x="238" y="268">
+    <Layout id="miniplayervol" width="238" height="268" minwidth="238" maxwidth="238" minheight="268" maxheight="268">
+      <Image id="minibackground" image="minibg"/>
+      <Image id="noart_mini" x="1" y="32" image="noartmini" rightbottom="righttop" xkeepratio="true" ykeepratio="true" resize="scale2" art="true" width="236" height="236" action="move" visible="vlc.hasAudio"/>
+      <Video id="minivideo" x="1" y="31" width="236" height="236" rightbottom="rightbottom" visible="vlc.hasVout"/>
+      <Image id="image_d01" image="d01" action="move"/>
+      <Image id="image_d02" y="20" image="d02" action="move"/>
+      <Image id="image_d_logo" x="7" y="5" image="vlc_logo" action2="vlc.quit();"/>
+      <Text text="$N" font="segoe12" color="#F0F0F0" id="text_d_name" x="10" y="41" width="217" visible="vlc.isSeekable"/>
+      <Button up="min_normal" down="min_click" over="min_over" action="vlc.minimize();" id="button_d_min" x="101" tooltiptext="Minimize"/>
+      <Button up="max_normal" down="max_click" over="max_over" action="miniplayervol.hide();main.show();" id="button_d_switch" x="147" tooltiptext="Exit mini-player mode"/>
+      <Button up="close_normal" down="close_click" over="close_over" action="vlc.quit();" id="button_d_close" x="193" tooltiptext="Close"/>
+      <Slider id="slider_d_video" x="17" y="212" points="(0,1),(205,1)" value="time" tooltiptext="$T" up="video_slider_normal" down="video_slider_click" over="video_slider_over" visible="vlc.isSeekable">
+        <SliderBackground id="minislidervol" image="minitimeslider" nbvert="205"/>
+      </Slider>
+      <Image id="image_d_rw" x="48" y="226" image="rw_nouse"/>
+      <Button up="rw_normal" down="rw_click" over="rw_over" action="playlist.previous();" id="button_d_rw" x="48" y="226" visible="vlc.isSeekable" tooltiptext="Press to rewind"/>
+      <Image id="image_d_ff" x="139" y="227" image="ff_nouse"/>
+      <Button up="ff_normal" down="ff_click" over="ff_over" action="playlist.next();" id="button_d_ff" x="134" y="226" visible="vlc.isSeekable" tooltiptext="Press to fast-forward"/>
+      <Checkbox state="vlc.isPlaying" up1="play_normal" up2="pause_normal" down1="play_click" down2="pause_click" over1="play_over" over2="pause_over" action1="vlc.play();" action2="vlc.pause();" tooltiptext1="Play" tooltiptext2="Pause" id="checkbox_d_play_pause" x="97" y="217"/>
+      <Image id="image_d_Stop" x="20" y="226" image="stop_nouse"/>
+      <Button up="stop_normal" down="stop_click" over="stop_over" action="vlc.stop();" id="button_d_stop" x="20" y="225" visible="vlc.isSeekable" tooltiptext="Stop"/>
+      <Checkbox state="vlc.isMute" up1="vol2_normal" up2="mute_normal" down1="vol2_click" down2="mute_click" over1="vol2_over" over2="mute_over" action1="vlc.mute();" action2="vlc.mute();" tooltiptext1="Mute" tooltiptext2="Sound" id="checkbox_d_audio" x="190" y="227"/>
+      <Button up="voldrop_normal" down="voldrop_click" over="voldrop_over" id="vol_dropdown" x="214" y="229" tooltiptext="Volume"/>
+      <Image id="volbackground" x="134" y="227" image="volumepopout"/>
+      <Button up="volumepopout" down="volumepopout" over="volumepopout" action="miniplayervol.hide();miniplayer.show();" id="volbg" x="134" y="227" tooltiptext="Press to exit volume"/>
+      <Slider id="ses" x="146" y="242" points="(0,1),(62,1)" value="volume" tooltiptext="$V%" up="audio_slider_normal" down="audio_slider_click" over="audio_slider_over">
+        <SliderBackground id="mini_audio" image="minislider" nbvert="63"/>
+      </Slider>
+    </Layout>
+  </Window>
+  <Window id="fullscreenController">
+    <Layout id="controls" width="594" height="56" minwidth="594" maxwidth="594" minheight="56" maxheight="56">
+      <Image id="controldock" image="fullscreencontrols"/>
+      <Slider id="slider_video" x="1" y="1" points="(0,1),(589,1)" value="time" tooltiptext="$T" up="video_slider_normal" down="video_slider_click" over="video_slider_over" lefttop="leftbottom" rightbottom="rightbottom" visible="vlc.isSeekable">
+        <SliderBackground id="background_video" image="video_slider_back" nbvert="590"/>
+      </Slider>
+      <Panel id="controls" x="85" y="7" width="425" height="50" xkeepratio="true" ykeepratio="true">
+        <Checkbox state="playlist.isRandom" up1="random_off_normal" up2="random_on_normal" down1="random_off_click" down2="random_on_click" over1="random_off_over" over2="random_on_over" action1="playlist.setRandom(true);" action2="playlist.setRandom(false);" tooltiptext1="Turn shuffle on" tooltiptext2="Turn shuffle off" id="checkbox_random" x="30" y="12"/>
+        <Checkbox state="playlist.isLoop" up1="repeat_off_normal" up2="repeat_on_normal" down1="repeat_off_click" down2="repeat_on_click" over1="repeat_off_over" over2="repeat_on_over" action1="playlist.setLoop(true);" action2="playlist.setLoop(false);" tooltiptext1="Turn repeat on" tooltiptext2="Turn repeat off" id="checkbox_loop" x="60" y="12" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Image id="image_stop" x="105" y="13" image="stop_nouse" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Button up="stop_normal" down="stop_click" over="stop_over" action="vlc.stop();" id="button_stop" x="105" y="12" lefttop="leftbottom" rightbottom="leftbottom" visible="vlc.isSeekable" tooltiptext="Stop"/>
+        <Image id="image_rw" x="138" y="12" image="rw_nouse" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Button up="rw_normal" down="rw_click" over="rw_over" action="playlist.previous();" id="button_rw" x="138" y="12" lefttop="leftbottom" rightbottom="leftbottom" visible="vlc.isSeekable" tooltiptext="Press to rewind"/>
+        <Image id="image_ff" x="230" y="13" image="ff_nouse" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Button up="ff_normal" down="ff_click" over="ff_over" action="playlist.next();" id="button_ff" x="227" y="13" lefttop="leftbottom" rightbottom="leftbottom" visible="vlc.isSeekable" tooltiptext="Press to fast-forward"/>
+        <Checkbox state="vlc.isPlaying" up1="play_normal" up2="pause_normal" down1="play_click" down2="pause_click" over1="play_over" over2="pause_over" action1="vlc.play();" action2="vlc.pause();" tooltiptext1="Play" tooltiptext2="Pause" id="checkbox_play_pause" x="188" y="3" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Checkbox state="vlc.isMute" up1="vol2_normal" up2="mute_normal" down1="vol2_click" down2="mute_click" over1="vol2_over" over2="mute_over" action1="vlc.mute();" action2="vlc.mute();" tooltiptext1="Mute" tooltiptext2="Sound" id="checkboc_audio" x="295" y="12" lefttop="leftbottom" rightbottom="leftbottom"/>
+        <Slider id="slider_audio" x="335" y="24" points="(0,1),(62,1)" value="volume" tooltiptext="$V%" up="audio_slider_normal" down="audio_slider_click" over="audio_slider_over" lefttop="leftbottom" rightbottom="leftbottom">
+          <SliderBackground id="background_audio" image="audio_slider_back" nbvert="63"/>
+        </Slider>
+        <Text text="$T" font="segoe12" alignment="right" color="#FFFFFF" id="text_time" x="-66" y="17" width="55" lefttop="leftbottom" rightbottom="leftbottom" visible="vlc.isSeekable"/>
+      </Panel>
+      <Button up="switch_normal" down="switch_click" over="switch_over" action="vlc.fullscreen()" id="close_fullscreen" x="550" y="22" tooltiptext="Exit full-screen mode"/>
+    </Layout>
+  </Window>
+
+</Theme>
