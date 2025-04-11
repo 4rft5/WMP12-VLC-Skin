@@ -65,6 +65,8 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 
 * Because almost nobody uses VLC skins nor makes them, support is hard to find. If you are good with XML, I would greatly appreciate advice or even pull requests on how to fix the bugs and make this skin better.
 
+* If you want to edit the skin and the album art isn't working, this is because the VLC skin editor erases the album art tag in the xml file. You have to open the xml in the editor, make a copy of the existing xml, add the tags, then replace without editing anything and then export as vlt. I wish it wasn't that complicated, but that's how it is.
+
 <hr>
 
 Enjoy!
