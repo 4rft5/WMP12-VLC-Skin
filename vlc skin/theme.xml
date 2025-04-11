@@ -3,7 +3,6 @@
   <ThemeInfo name="WMP12-VLC-Skin" author="4rft5" email="" webpage="http://4rft5.com"/>
 
   <!-- Created using the VLC Skin Editor 0.8.5.dev (http://www.videolan.org/vlc/skineditor.html)-->
-  <!-- Based on the Media Player 12 skin by sebweber -->
 
   <Bitmap id="body" file="body.PNG" alphacolor="#FF00FF">
     <SubBitmap id="01" x="0" y="0" height="7" width="7"/>
@@ -191,7 +190,7 @@
       <Image id="image_21" x="615" y="219" image="21" action="resizeE" lefttop="righttop" rightbottom="rightbottom"/>
       <Image id="image_22" x="615" y="220" image="22" action="resizeE" lefttop="rightbottom" rightbottom="rightbottom"/>
       <Image id="image_23" y="378" image="23" action="move" lefttop="leftbottom" rightbottom="leftbottom"/>
-      <Image id="image_24" x="7" y="378" image="24" action="move" lefttop="leftbottom" rightbottom="rightbottom"/>
+      <Image id="image_24" x="7" y="378" image="24" lefttop="leftbottom" rightbottom="rightbottom"/>
       <Image id="image_25" x="594" y="378" image="25" action="move" lefttop="leftbottom" rightbottom="rightbottom"/>
       <Image id="image_26" x="595" y="378" image="26" action="move" lefttop="rightbottom" rightbottom="rightbottom"/>
       <Image id="image_27" x="615" y="378" image="27" action="resizeE" lefttop="rightbottom" rightbottom="rightbottom"/>
@@ -202,14 +201,14 @@
       <Image id="image_32" x="615" y="440" image="32" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
       <Image id="image_36a" x="70" y="388" image="36a" lefttop="leftbottom" rightbottom="leftbottom"/>
       <Video id="video_main" x="1" y="30" width="620" height="348" rightbottom="rightbottom"/>
-      <Image id="wmp_background" x="1" y="30" image="wmpbg" action="move" action2="vlc.fullscreen()" resize="scale" rightbottom="rightbottom" visible="vlc.hasVout(false)"/>
+      <Image id="wmp_background" x="1" y="30" image="wmpbg" action2="vlc.fullscreen()" resize="scale" rightbottom="rightbottom" visible="vlc.hasVout(false)"/>
       <Slider id="slider_video" x="17" y="383" points="(0,1),(589,1)" value="time" tooltiptext="Seek" up="video_slider_normal" down="video_slider_click" over="video_slider_over" lefttop="leftbottom" rightbottom="rightbottom" visible="vlc.isSeekable">
         <SliderBackground id="background_video" image="video_slider_back" nbvert="590"/>
       </Slider>
-      <Image id="image_logo" x="7" y="4" image="vlc_logo" action2="main.unmaximize();vlc.quit();"/>
-      <Button up="min_normal" down="min_click" over="min_over" action="vlc.minimize();" id="button_min" x="485" lefttop="righttop" rightbottom="righttop" tooltiptext="Minimize"/>
-      <Checkbox state="main.isMaximized" up1="max_normal" up2="unmax_normal" down1="max_click" down2="unmax_click" over1="max_over" over2="unmax_over" action1="main.maximize()" action2="main.unmaximize()" tooltiptext1="Maximize" tooltiptext2="Restore Down" id="button_minmax" x="531" lefttop="righttop" rightbottom="righttop"/>
-      <Button up="close_normal" down="close_click" over="close_over" action="main.unmaximize();vlc.quit();" id="button_close" x="577" lefttop="righttop" rightbottom="righttop" tooltiptext="Close"/>
+      <Image id="image_logo" x="7" y="4" image="vlc_logo" action="move" action2="main.unmaximize();vlc.quit();"/>
+      <Button up="min_normal" down="min_click" over="min_over" action="vlc.minimize();" id="button_min" x="483" lefttop="righttop" rightbottom="righttop" tooltiptext="Minimize"/>
+      <Checkbox state="main.isMaximized" up1="max_normal" up2="unmax_normal" down1="max_click" down2="unmax_click" over1="max_over" over2="unmax_over" action1="main.maximize()" action2="main.unmaximize()" tooltiptext1="Maximize" tooltiptext2="Restore Down" id="button_minmax" x="529" lefttop="righttop" rightbottom="righttop"/>
+      <Button up="close_normal" down="close_click" over="close_over" action="main.unmaximize();vlc.quit();" id="button_close" x="575" lefttop="righttop" rightbottom="righttop" tooltiptext="Close"/>
       <Panel id="controls" x="100" y="388" width="420" height="50" rightbottom="rightbottom" xkeepratio="true">
         <Image id="image_36" image="36" lefttop="leftbottom" rightbottom="leftbottom"/>
         <Checkbox state="playlist.isRandom" up1="random_off_normal" up2="random_on_normal" down1="random_off_click" down2="random_on_click" over1="random_off_over" over2="random_on_over" action1="playlist.setRandom(true);" action2="playlist.setRandom(false);" tooltiptext1="Turn shuffle on" tooltiptext2="Turn shuffle off" id="checkbox_random" x="30" y="12" lefttop="leftbottom" rightbottom="leftbottom"/>
@@ -229,18 +228,18 @@
       </Panel>
       <Button up="fswitch_normal" down="fswitch_click" over="fswitch_over" action="vlc.fullscreen();main.hide();miniplayer.show()" id="fullscreen_switch" x="575" y="400" lefttop="rightbottom" rightbottom="rightbottom" tooltiptext="View full screen"/>
       <Button up="switch_normal" down="switch_click" over="switch_over" action="main.hide();miniplayer.show();" id="button_switch" x="550" y="400" lefttop="rightbottom" rightbottom="rightbottom" tooltiptext="View mini-player"/>
-      <Image id="noart_img" x="192" y="100" image="noart" rightbottom="righttop" xkeepratio="true" ykeepratio="true" resize="scale2" art="true" width="236" height="236" action="move" visible="vlc.hasAudio"/>
+      <Image id="noart_img" x="192" y="100" image="noart" rightbottom="righttop" xkeepratio="true" ykeepratio="true" resize="scale2" art="true" width="236" height="236" visible="vlc.hasAudio"/>
       <Text text="$N" font="segoe12" color="#FFFFFF" id="text_now_playing" x="10" y="41" width="600" visible="vlc.hasAudio"/>
     </Layout>
   </Window>
   <Window id="miniplayer" visible="false" x="238" y="268">
     <Layout id="miniplayer" width="238" height="268" minwidth="238" maxwidth="238" minheight="268" maxheight="268">
       <Image id="minibackground" image="minibg"/>
-      <Image id="noart_mini" x="1" y="32" image="noartmini" rightbottom="righttop" xkeepratio="true" ykeepratio="true" resize="scale2" art="true" width="236" height="236" action="move" visible="vlc.hasAudio"/>
+      <Image id="noart_mini" x="1" y="32" image="noartmini" rightbottom="righttop" xkeepratio="true" ykeepratio="true" resize="scale2" art="true" width="236" height="236" visible="vlc.hasAudio"/>
       <Video id="minivideo" x="1" y="31" width="236" height="236" rightbottom="rightbottom" visible="vlc.hasVout"/>
       <Image id="image_d01" image="d01" action="move"/>
       <Image id="image_d02" y="20" image="d02" action="move"/>
-      <Image id="image_d_logo" x="7" y="5" image="vlc_logo" action2="vlc.quit();"/>
+      <Image id="image_d_logo" x="7" y="5" image="vlc_logo" action="move" action2="vlc.quit();"/>
       <Text text="$N" font="segoe12" color="#F0F0F0" id="text_d_name" x="10" y="41" width="217" visible="vlc.isSeekable"/>
       <Button up="min_normal" down="min_click" over="min_over" action="vlc.minimize();" id="button_d_min" x="101" tooltiptext="Minimize"/>
       <Button up="max_normal" down="max_click" over="max_over" action="miniplayer.hide();main.show();" id="button_d_switch" x="147" tooltiptext="Exit mini-player mode"/>
@@ -262,11 +261,11 @@
   <Window id="miniplayervol" visible="false" x="238" y="268">
     <Layout id="miniplayervol" width="238" height="268" minwidth="238" maxwidth="238" minheight="268" maxheight="268">
       <Image id="minibackground" image="minibg"/>
-      <Image id="noart_mini" x="1" y="32" image="noartmini" rightbottom="righttop" xkeepratio="true" ykeepratio="true" resize="scale2" art="true" width="236" height="236" action="move" visible="vlc.hasAudio"/>
+      <Image id="noart_mini" x="1" y="32" image="noartmini" rightbottom="righttop" xkeepratio="true" ykeepratio="true" resize="scale2" art="true" width="236" height="236" visible="vlc.hasAudio"/>
       <Video id="minivideo" x="1" y="31" width="236" height="236" rightbottom="rightbottom" visible="vlc.hasVout"/>
       <Image id="image_d01" image="d01" action="move"/>
       <Image id="image_d02" y="20" image="d02" action="move"/>
-      <Image id="image_d_logo" x="7" y="5" image="vlc_logo" action2="vlc.quit();"/>
+      <Image id="image_d_logo" x="7" y="5" image="vlc_logo" action="move" action2="vlc.quit();"/>
       <Text text="$N" font="segoe12" color="#F0F0F0" id="text_d_name" x="10" y="41" width="217" visible="vlc.isSeekable"/>
       <Button up="min_normal" down="min_click" over="min_over" action="vlc.minimize();" id="button_d_min" x="101" tooltiptext="Minimize"/>
       <Button up="max_normal" down="max_click" over="max_over" action="miniplayervol.hide();main.show();" id="button_d_switch" x="147" tooltiptext="Exit mini-player mode"/>
