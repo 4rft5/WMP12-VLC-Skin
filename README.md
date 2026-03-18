@@ -7,7 +7,7 @@ A re-implementation of the Windows Media Player 12 theme for VLC.
 
 Many Windows Media Player skins float around for VLC, but I found them to be too different from the original source. This skin is intended to be as close of a replica as possible.
 
-Since VLC's skin editor hasn't received an update in around 16 years, it is not perfect, and many modern features (such as semi-transparent images) are flat out not supported. 
+Since VLC's skin editor hasn't received an update since around 2009, it is not perfect, and many modern features (such as semi-transparent images) are flat out not supported. 
 
 This skin is based off of the "Media Player 12" skin by sebweber, however has been vastly and dramatically modified to fit my needs.
 
