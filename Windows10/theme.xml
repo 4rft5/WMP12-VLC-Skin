@@ -36,7 +36,7 @@
     <SubBitmap id="29" x="7" y="440" height="7" width="587"/>
     <SubBitmap id="30" x="594" y="440" height="7" width="1"/>
     <SubBitmap id="31" x="595" y="440" height="7" width="20"/>
-    <SubBitmap id="32" x="615" y="440" height="7" width="7"/>
+    <SubBitmap id="32" x="608" y="433" height="14" width="14"/>
     <SubBitmap id="33" x="8" y="283" height="96" width="100"/>
     <SubBitmap id="34" x="108" y="283" height="96" width="243"/>
     <SubBitmap id="35" x="351" y="283" height="96" width="100"/>
@@ -198,7 +198,7 @@
       <Image id="image_29" x="7" y="440" image="29" action="resizeS" lefttop="leftbottom" rightbottom="leftbottom"/>
       <Image id="image_30" x="594" y="440" image="30" action="resizeS" lefttop="leftbottom" rightbottom="rightbottom"/>
       <Image id="image_31" x="595" y="440" image="31" action="resizeS" lefttop="rightbottom" rightbottom="rightbottom"/>
-      <Image id="image_32" x="615" y="440" image="32" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
+      <Image id="image_32" x="608" y="433" image="32" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
       <Image id="image_36a" x="70" y="388" image="36a" lefttop="leftbottom" rightbottom="leftbottom"/>
       <Video id="video_main" x="1" y="30" width="620" height="348" rightbottom="rightbottom"/>
       <Image id="wmp_background" x="1" y="30" image="wmpbg" action2="vlc.fullscreen()" resize="scale" rightbottom="rightbottom" visible="vlc.hasVout(false)"/>
