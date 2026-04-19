@@ -49,7 +49,7 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 
 * To exit the mini-player and return to normal playback, click the maximize button at the top of the window.
 
-* To exit the mini-player volume slider, click on the inside of its box. (I tried my best, this was the most "seamless" solution.)
+* To exit the mini-player volume slider, click on the inside of its box or double click outside of the box. This is the only way the VLC Skin Editor supports "popups".
 
 * Because of the lack of semi-transparency, the "hitbox" for the volume selector in the mini-player is just the arrow, nothing else. It's a little hard to click sometimes.
 
@@ -62,6 +62,8 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 * Text on mini-player may blend in with lighter colored album covers, again, limitation of the skin editor.
 
 * Possible graphical issues - I'm a perfectionist, and I tried my best to replicate WMP12, however VLC's skin editor is EXTREMELY buggy, so some things may not work properly for you. If this is the case, I apologize, but there's nothing I can do.
+
+* Linux OS users may see issues with cursors. This is not a bug with the skin, but some UI/UX bug between VLC and Linux.
 
 * Because almost nobody uses VLC skins nor makes them, support is hard to find. If you are good with XML, I would greatly appreciate advice or even pull requests on how to fix the bugs and make this skin better.
 
