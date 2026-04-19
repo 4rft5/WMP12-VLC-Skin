@@ -260,8 +260,8 @@
   </Window>
   <Window id="miniplayervol" visible="false" x="238" y="268">
     <Layout id="miniplayervol" width="238" height="268" minwidth="238" maxwidth="238" minheight="268" maxheight="268">
-      <Image id="minibackground" image="minibg"/>
-      <Image id="noart_mini" x="1" y="32" image="noartmini" rightbottom="righttop" xkeepratio="true" ykeepratio="true" resize="scale2" art="true" width="236" height="236" visible="vlc.hasAudio"/>
+      <Image id="minibackground" image="minibg" action2="miniplayervol.hide();miniplayer.show();"/>
+      <Image id="noart_mini" x="1" y="32" image="noartmini" action2="miniplayervol.hide();miniplayer.show();" rightbottom="righttop" xkeepratio="true" ykeepratio="true" resize="scale2" art="true" width="236" height="236" visible="vlc.hasAudio"/>
       <Video id="minivideo" x="1" y="31" width="236" height="236" rightbottom="rightbottom" visible="vlc.hasVout"/>
       <Image id="image_d01" image="d01" action="move"/>
       <Image id="image_d02" y="20" image="d02" action="move"/>
