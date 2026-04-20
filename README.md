@@ -42,7 +42,7 @@ Then, open VLC, use CTRL+P to open preferences, Interface tab, and select "Use C
 
 ## "Features"
 
-The term "features" is more ironic than actual features.
+The term "features" is more irony than actual features.
 Because of the aforementioned lack of modern amenities in the editor, some things had to be bodged to work, such as the mini-player and the volume for the mini-player. I tried my best to implement them, however they're not perfect.
 
 * To access the mini-player, use the icon next to the full screen icon.
@@ -64,6 +64,8 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 * Possible graphical issues - I'm a perfectionist, and I tried my best to replicate WMP12, however VLC's skin editor is EXTREMELY buggy, so some things may not work properly for you. If this is the case, I apologize, but there's nothing I can do.
 
 * Linux OS users may see issues with cursors. This is not a bug with the skin, but some UI/UX bug between VLC and Linux.
+
+* Click to seek doesnt seem to work, but I don't think the skin editor supports it.
 
 * Because almost nobody uses VLC skins nor makes them, support is hard to find. If you are good with XML, I would greatly appreciate advice or even pull requests on how to fix the bugs and make this skin better.
 
