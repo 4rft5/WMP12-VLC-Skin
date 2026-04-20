@@ -42,8 +42,10 @@ Then, open VLC, use CTRL+P to open preferences, Interface tab, and select "Use C
 
 ## "Features"
 
-The term "features" is more ironic than actual features.
-Because of the aforementioned lack of modern amenities in the editor, some things had to be bodged to work, such as the mini-player and the volume for the mini-player. I tried my best to implement them, however they're not perfect.
+The term "features" is more irony than reflecting actual features.
+Because of the aforementioned lack of modern amenities in the editor, some things had to be bodged to work:
+
+### Mini-Player
 
 * To access the mini-player, use the icon next to the full screen icon.
 
@@ -53,7 +55,9 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 
 * Because of the lack of semi-transparency, the "hitbox" for the volume selector in the mini-player is just the arrow, nothing else. It's a little hard to click sometimes.
 
-### Bugs
+## Bugs
+
+### Graphical Bugs
 
 * I tried my best to get video playback to work with the miniplayer and controls, and got close, but at some point VLC gave up trying to hide the "you're supposed to hide this hex code" color, so I had to remove the controls. If you play a video in the mini-player, you have to click the maximize button to exit to get to proper controls.
 
@@ -63,11 +67,21 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 
 * Possible graphical issues - I'm a perfectionist, and I tried my best to replicate WMP12, however VLC's skin editor is EXTREMELY buggy, so some things may not work properly for you. If this is the case, I apologize, but there's nothing I can do.
 
+### Function Bugs
+
+* Click to seek doesn't work. I believe this is also a limitation of the skin editor.
+
 * Linux OS users may see issues with cursors. This is not a bug with the skin, but some UI/UX bug between VLC and Linux.
 
-* Because almost nobody uses VLC skins nor makes them, support is hard to find. If you are good with XML, I would greatly appreciate advice or even pull requests on how to fix the bugs and make this skin better.
+## Submitting Bugs
 
-* If you want to edit the skin and the album art isn't working, this is because the VLC skin editor erases the album art tag in the xml file. You have to open the xml in the editor, make a copy of the existing xml, add the tags, then replace without editing anything and then export as vlt. I wish it wasn't that complicated, but that's how it is.
+If you encounter a bug not listed above, feel free to make an issue on this repo. Please include your OS, version of the skin (ideally latest) and if it's Win7/10. Please also include a detailed description of the bug and how to replicate it.
+
+## Support
+
+Because almost nobody uses VLC skins nor makes them, support is hard to find. If you are good with XML, I would greatly appreciate advice or even pull requests on how to fix the bugs and make this skin better.
+
+If you want to edit the skin and the album art isn't working, this is because the VLC skin editor erases the album art tag in the xml file. You have to open the xml in the editor, make a copy of the existing xml, add the tags, then replace without editing anything and then export as vlt. I wish it wasn't that complicated, but that's how it is.
 
 <hr>
 
