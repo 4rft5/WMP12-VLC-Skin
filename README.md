@@ -34,9 +34,10 @@ This skin is based off of the "Media Player 12" skin by sebweber, however has be
 
 ## Usage
 
-Download the .vlt skinfile of your choice (Windows 10 or Windows 7) from releases and place it in your `C:\Program Files\VideoLAN\VLC\skins` folder.
+Download the .vlt skinfile of your choice (Windows 10 or Windows 7) from releases and place it in your `C:\Program Files\VideoLAN\VLC\skins` folder. On Linux, the folder is located on `~/.local/share/vlc/skins2` for the system installed VLC. alternatively, open VLC, use CTRL+P to open preferences, Interface tab, and select "Use Custom Skin". Press `Choose:` to bring up the skins folder where your saved skin is.
 
-Then, open VLC, use CTRL+P to open preferences, Interface tab, and select "Use Custom Skin". Press `Choose:` to bring up the skins folder where your saved skin is.
+
+### Important note for Arch Linux users: **Arch Linux users need to install `vlc`, `vlc-plugins-all` and `vlc-gui-skins2` to have a fully functional installation of VLC, so the system allows to browse and choose the skin. once selected, restart VLC to start using it.**
 
 <hr>
 
