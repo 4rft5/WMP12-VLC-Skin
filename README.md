@@ -42,7 +42,7 @@ Download the .vlt skinfile of your choice (Windows 10 or Windows 7) from release
 <details>
 <summary>Arch Linux Users</summary></summary>
 Arch Linux users need to install `vlc`, `vlc-plugins-all` and `vlc-gui-skins2` to have a fully functional installation of VLC, so the system allows to browse and choose the skin. once selected, restart VLC to start using it.
-</details>details>
+</details>
 
 Alternatively, open VLC, use CTRL+P to open preferences, Interface tab, and select "Use Custom Skin". Press `Choose:` to bring up the skins folder where your saved skin is.
 
