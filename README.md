@@ -71,8 +71,6 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 
 * When going full-screen, the player enters the mini-player state because leaving it in the regular player left a pink box where album art is supposed to go, and closing all the windows (main/mini) trapped me, forcing me to close VLC from the taskbar.
 
-* Text on mini-player may blend in with lighter colored album covers, again, limitation of the skin editor.
-
 * Possible graphical issues - I'm a perfectionist, and I tried my best to replicate WMP12, however VLC's skin editor is EXTREMELY buggy, so some things may not work properly for you. If this is the case, I apologize, but there's nothing I can do.
 
 ### Function Bugs
@@ -96,5 +94,11 @@ MacOS is not supported as [VLC skins are not supported on MacOS.](https://images
 If you want to edit the skin and the album art isn't working, this is because the VLC skin editor erases the album art tag in the xml file. You have to open the xml in the editor, make a copy of the existing xml, add the tags, then replace without editing anything and then export as vlt. I wish it wasn't that complicated, but that's how it is.
 
 <hr>
+
+## Credits
+
+[Original `Media Player 12` skin by sebweber](http://www.videolan.org/vlc/download-skins2-go.php?url=windows_media_player_12.vlt)
+
+[Arial-Unicode-MS](https://github.com/Thong-ihealth/arial-unicode)
 
 Enjoy!
