@@ -100,6 +100,4 @@ If you want to edit the skin and the album art isn't working, this is because th
 
 [Original `Media Player 12` skin by sebweber](http://www.videolan.org/vlc/download-skins2-go.php?url=windows_media_player_12.vlt)
 
-[Arial-Unicode-MS](https://github.com/Thong-ihealth/arial-unicode)
-
 Enjoy!
