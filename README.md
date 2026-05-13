@@ -77,10 +77,9 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 
 ### Function Bugs
 
-* Click to seek doesn't work. I believe this is also a limitation of the skin editor.
-
 * Linux OS users may see issues with cursors. This is not a bug with the skin, but some UI/UX bug between VLC and Linux.
-* The progress bar can be clicked to seek through the song/video, but it may require a precise click from the user/click the progress slider then the seek bar.
+
+* The progress bar (Click to Seek) can be clicked to seek through the song/video, but it may require a precise click from the user/click the progress slider then the seek bar.
 
 ## Submitting Bugs
 
