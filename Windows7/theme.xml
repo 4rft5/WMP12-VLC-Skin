@@ -163,7 +163,7 @@
     <SubBitmap id="ff_nouse" x="4" y="30" height="25" width="48"/>
     <SubBitmap id="stop_nouse" x="55" y="0" height="26" width="27"/>
   </Bitmap>
-  <Font id="unicode12" file="arial-unicode-ms.otf" size="13"/>
+  <Font id="unicode12" file="Microsoft Yahei.ttf" size="11"/>
 
   <Window id="main" x="300" y="300">
     <Layout id="mainplayer" width="622" height="447" maxwidth="7680" maxheight="4800">
@@ -243,9 +243,9 @@
       <Image id="image_d_logo" x="7" y="5" image="vlc_logo" action="move" action2="vlc.quit();"/>
       <Text text="$N" font="unicode12" id="text_d_name_shadow" x="11" y="42" width="217" visible="vlc.isSeekable"/>
       <Text text="$N" font="unicode12" color="#F0F0F0" id="text_d_name" x="10" y="41" width="217" visible="vlc.isSeekable"/>
-      <Button up="min_normal" down="min_click" over="min_over" action="vlc.minimize();" id="button_d_min" x="130" y="2" tooltiptext="Minimize"/>
-      <Button up="max_normal" down="max_click" over="max_over" action="miniplayer.hide();main.show();" id="button_d_switch" x="159" y="2" tooltiptext="Exit mini-player mode"/>
-      <Button up="close_normal" down="close_click" over="close_over" action="vlc.quit();" id="button_d_close" x="185" y="2" tooltiptext="Close"/>
+      <Button up="min_normal" down="min_click" over="min_over" action="vlc.minimize();" id="button_d_min" x="130" y="1" tooltiptext="Minimize"/>
+      <Button up="max_normal" down="max_click" over="max_over" action="miniplayer.hide();main.show();" id="button_d_switch" x="159" y="1" tooltiptext="Exit mini-player mode"/>
+      <Button up="close_normal" down="close_click" over="close_over" action="vlc.quit();" id="button_d_close" x="185" y="1" tooltiptext="Close"/>
       <Slider id="slider_d_video" x="17" y="212" points="(0,1),(205,1)" value="time" tooltiptext="$T" up="video_slider_normal" down="video_slider_click" over="video_slider_over" visible="vlc.isSeekable">
         <SliderBackground id="minislidermain" image="minitimeslider" nbvert="205"/>
       </Slider>
@@ -270,9 +270,9 @@
       <Image id="image_d_logo" x="7" y="5" image="vlc_logo" action="move" action2="vlc.quit();"/>
       <Text text="$N" font="unicode12" id="text_d_name_shadow_minivol" x="11" y="42" width="217" visible="vlc.isSeekable"/>
       <Text text="$N" font="unicode12" color="#F0F0F0" id="text_d_name" x="10" y="41" width="217" visible="vlc.isSeekable"/>
-      <Button up="min_normal" down="min_click" over="min_over" action="vlc.minimize();" id="button_d_min" x="130" y="2" tooltiptext="Minimize"/>
-      <Button up="max_normal" down="max_click" over="max_over" action="miniplayervol.hide();main.show();" id="button_d_switch" x="159" y="2" tooltiptext="Exit mini-player mode"/>
-      <Button up="close_normal" down="close_click" over="close_over" action="vlc.quit();" id="button_d_close" x="185" y="2" tooltiptext="Close"/>
+      <Button up="min_normal" down="min_click" over="min_over" action="vlc.minimize();" id="button_d_min" x="130" y="1" tooltiptext="Minimize"/>
+      <Button up="max_normal" down="max_click" over="max_over" action="miniplayervol.hide();main.show();" id="button_d_switch" x="159" y="1" tooltiptext="Exit mini-player mode"/>
+      <Button up="close_normal" down="close_click" over="close_over" action="vlc.quit();" id="button_d_close" x="185" y="1" tooltiptext="Close"/>
       <Slider id="slider_d_video" x="17" y="212" points="(0,1),(205,1)" value="time" tooltiptext="$T" up="video_slider_normal" down="video_slider_click" over="video_slider_over" visible="vlc.isSeekable">
         <SliderBackground id="minislidervol" image="minitimeslider" nbvert="205"/>
       </Slider>
