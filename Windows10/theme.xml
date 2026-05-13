@@ -163,7 +163,7 @@
     <SubBitmap id="ff_nouse" x="4" y="30" height="25" width="48"/>
     <SubBitmap id="stop_nouse" x="55" y="0" height="26" width="27"/>
   </Bitmap>
-  <Font id="unicode12" file="arial-unicode-ms.otf" size="13"/>
+  <Font id="unicode12" file="Microsoft Yahei.ttf" size="11"/>
 
   <Window id="main" x="300" y="300">
     <Layout id="mainplayer" width="622" height="447" maxwidth="7680" maxheight="4800">
