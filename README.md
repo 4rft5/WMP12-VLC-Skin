@@ -39,7 +39,7 @@ This skin is based off of the "Media Player 12" skin by sebweber, however has be
 Download the .vlt skinfile of your choice (Windows 10 or Windows 7) from releases and place it in your `C:\Program Files\VideoLAN\VLC\skins` folder.
 
 ### Linux
-Download the .vlt skinfile of your choice (Windows 10 or Windows 7) from releases and place it in your `~/.local/share/vlc/skins2` folder. (For the system installed VLC.)
+Download the .vlt skinfile of your choice (Windows 10 or Windows 7) from releases and place it in your `~/.local/share/vlc/skins2` folder. (For system installed VLC.)
 <details>
 <summary>Arch Linux Users</summary>
 Arch Linux users need to install `vlc`, `vlc-plugins-all` and `vlc-gui-skins2` to have a fully functional installation of VLC, so the system allows to browse and choose the skin. once selected, restart VLC to start using it.
@@ -49,7 +49,7 @@ Alternatively, open VLC, use CTRL+P to open preferences, Interface tab, and sele
 
 <hr>
 
-## Building the .vlt yourself
+### Building the .vlt yourself
 
 A `.vlt` file is nothing more than a gzipped tar archive with `theme.xml` at its root, so all you need is GNU Make and `tar`:
 
@@ -83,7 +83,7 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 
 * To access the mini-player, use the icon next to the full screen icon.
 
-* **To exit the mini-player and return to normal playback, click the maximize button at the top of the window.** Noteworthy, as you may not figure this out when 1st time using the skin.
+* To exit the mini-player and return to normal playback, click the maximize button at the top of the window.
 
 * To exit the mini-player volume slider, click on the inside of its box or double click outside of the box. This is the only way the VLC Skin Editor supports "popups".
 
@@ -99,9 +99,11 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 
 * Linux OS users may see issues with cursors. This is not a bug with the skin, but some UI/UX bug between VLC and Linux.
 
-* The progress bar (Click to Seek) can be clicked to seek through the song/video, but it may require a precise click from the user/click the progress slider then the seek bar. (The visible seek track is only 3 pixels tall and VLC's skin engine does per-pixel hit testing, so this cannot be improved without redrawing the slider artwork.)
+* The progress bar (Click to Seek) can be clicked to seek through the song/video, but it may require a precise click from the user/click the progress slider then the seek bar. (The visible/clickable seek track is only 3 pixels tall, limited by the no transparency.)
 
-* Exiting full-screen with the on-screen button returns you to the regular player. Exiting with ESC or double-click instead leaves you in the mini-player (VLC skins have no "fullscreen ended" event to hook, so the skin cannot restore the window automatically on those paths - click the maximize button to get back).
+* Exiting full-screen with the on-screen button returns you to the regular player. Exiting with ESC or double-click instead leaves you in the mini-player (VLC skins have no hook to restore the window automatically, just click the maximize button to get back).
+
+* You cannot enter Full Screen while playing music, it instead opens the mini-player. I don't intend to change this as you likely wouldn't need full screen listening to music anyway.
 
 ## Submitting Bugs
 
