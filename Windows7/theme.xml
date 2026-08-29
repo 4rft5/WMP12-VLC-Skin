@@ -199,8 +199,8 @@
       <Image id="image_31" x="595" y="440" image="31" action="resizeS" lefttop="rightbottom" rightbottom="rightbottom"/>
       <Image id="image_32" x="608" y="433" image="32" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
       <Image id="image_36a" x="70" y="388" image="36a" lefttop="leftbottom" rightbottom="leftbottom"/>
-      <Video id="video_main" x="1" y="30" width="620" height="348" autoresize="false" rightbottom="rightbottom"/>
-      <Image id="wmp_background" x="1" y="30" width="620" height="348" image="wmpbg" action2="vlc.fullscreen()" resize="scale" rightbottom="rightbottom" visible="not vlc.hasVout"/>
+      <Video id="video_main" x="1" y="30" width="618" height="348" autoresize="false" rightbottom="rightbottom"/>
+      <Image id="wmp_background" x="1" y="30" width="618" height="348" image="wmpbg" action2="vlc.fullscreen()" resize="scale" rightbottom="rightbottom" visible="not vlc.hasVout"/>
       <Slider id="slider_video" x="17" y="383" points="(0,1),(589,1)" value="time" tooltiptext="Seek" up="video_slider_normal" down="video_slider_click" over="video_slider_over" lefttop="leftbottom" rightbottom="rightbottom" visible="vlc.isSeekable">
         <SliderBackground id="background_video" image="video_slider_back" nbvert="590"/>
       </Slider>
