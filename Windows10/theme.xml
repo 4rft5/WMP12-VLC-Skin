@@ -199,8 +199,8 @@
       <Image id="image_31" x="595" y="440" image="31" action="resizeS" lefttop="rightbottom" rightbottom="rightbottom"/>
       <Image id="image_32" x="608" y="433" image="32" action="resizeSE" lefttop="rightbottom" rightbottom="rightbottom"/>
       <Image id="image_36a" x="70" y="388" image="36a" lefttop="leftbottom" rightbottom="leftbottom"/>
-      <Video id="video_main" x="1" y="30" width="614" height="348" autoresize="false" rightbottom="rightbottom"/>
-      <Image id="wmp_background" x="1" y="30" width="614" height="348" image="wmpbg" action2="vlc.fullscreen()" resize="scale" rightbottom="rightbottom" visible="not vlc.hasVout"/>
+      <Video id="video_main" x="1" y="30" width="620" height="348" autoresize="false" rightbottom="rightbottom"/>
+      <Image id="wmp_background" x="1" y="30" width="620" height="348" image="wmpbg" action2="vlc.fullscreen()" resize="scale" rightbottom="rightbottom" visible="not vlc.hasVout"/>
       <Slider id="slider_video" x="17" y="383" points="(0,1),(589,1)" value="time" tooltiptext="Seek" up="video_slider_normal" down="video_slider_click" over="video_slider_over" lefttop="leftbottom" rightbottom="rightbottom" visible="vlc.isSeekable">
         <SliderBackground id="background_video" image="video_slider_back" nbvert="590"/>
       </Slider>
@@ -282,7 +282,7 @@
       <Image id="image_d_Stop_vol" x="20" y="226" image="stop_nouse"/>
       <Button up="stop_normal" down="stop_click" over="stop_over" action="vlc.stop()" id="button_d_stop_vol" x="20" y="225" visible="vlc.isSeekable" tooltiptext="Stop"/>
       <Checkbox state="vlc.isMute" up1="vol2_normal" up2="mute_normal" down1="vol2_click" down2="mute_click" over1="vol2_over" over2="mute_over" action1="vlc.mute()" action2="vlc.mute()" tooltiptext1="Mute" tooltiptext2="Sound" id="checkbox_d_audio_vol" x="190" y="227"/>
-      <Button up="voldrop_normal" down="voldrop_click" over="voldrop_over" action="miniplayervol.hide();miniplayer.show()" id="vol_dropdown_close" x="214" y="229" tooltiptext="Press to exit volume"/>
+      <Button up="voldrop_normal" down="voldrop_click" over="voldrop_over" id="vol_dropdown_vol" x="214" y="229" tooltiptext="Volume"/>
       <Image id="volbackground" x="134" y="227" image="volumepopout"/>
       <Button up="volumepopout" down="volumepopout" over="volumepopout" action="miniplayervol.hide();miniplayer.show()" id="volbg" x="134" y="227" tooltiptext="Press to exit volume"/>
       <Slider id="ses" x="146" y="242" points="(0,1),(62,1)" value="volume" tooltiptext="$V%" up="audio_slider_normal" down="audio_slider_click" over="audio_slider_over">

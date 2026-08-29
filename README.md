@@ -85,7 +85,7 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 
 * **To exit the mini-player and return to normal playback, click the maximize button at the top of the window.** Noteworthy, as you may not figure this out when 1st time using the skin.
 
-* To exit the mini-player volume slider, click the volume arrow again, click on the inside of its box, or double click outside of the box. This is the only way the VLC Skin Editor supports "popups".
+* To exit the mini-player volume slider, click on the inside of its box or double click outside of the box. This is the only way the VLC Skin Editor supports "popups".
 
 * Because of the lack of semi-transparency, the "hitbox" for the volume selector in the mini-player is just the arrow, nothing else. It's a little hard to click sometimes.
 
