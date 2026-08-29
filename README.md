@@ -41,11 +41,36 @@ Download the .vlt skinfile of your choice (Windows 10 or Windows 7) from release
 ### Linux
 Download the .vlt skinfile of your choice (Windows 10 or Windows 7) from releases and place it in your `~/.local/share/vlc/skins2` folder. (For the system installed VLC.)
 <details>
-<summary>Arch Linux Users</summary></summary>
+<summary>Arch Linux Users</summary>
 Arch Linux users need to install `vlc`, `vlc-plugins-all` and `vlc-gui-skins2` to have a fully functional installation of VLC, so the system allows to browse and choose the skin. once selected, restart VLC to start using it.
 </details>
 
 Alternatively, open VLC, use CTRL+P to open preferences, Interface tab, and select "Use Custom Skin". Press `Choose:` to bring up the skins folder where your saved skin is.
+
+<hr>
+
+## Building the .vlt yourself
+
+A `.vlt` file is nothing more than a gzipped tar archive with `theme.xml` at its root, so all you need is GNU Make and `tar`:
+
+* **Linux/macOS:** both come preinstalled (or grab them from your package manager).
+* **Windows 10 and later:** `tar` is preinstalled; install make with `winget install GnuWin32.Make` (or via Chocolatey/MSYS2).
+
+Then, from the repo root:
+
+```
+make            # build both skins
+make win10      # build only the Windows 10 skin
+make win7       # build only the Windows 7 skin
+make clean      # remove built .vlt files
+```
+
+If you don't want to install make, the raw command works too:
+
+```
+cd Windows10
+tar -czf ../MySkin.vlt *
+```
 
 <hr>
 
@@ -68,17 +93,15 @@ Because of the aforementioned lack of modern amenities in the editor, some thing
 
 ### Graphical Bugs
 
-* I tried my best to get video playback to work with the miniplayer and controls, and got close, but at some point VLC gave up trying to hide the "you're supposed to hide this hex code" color, so I had to remove the controls. If you play a video in the mini-player, you have to click the maximize button to exit to get to proper controls.
-
-* When going full-screen, the player enters the mini-player state because leaving it in the regular player left a pink box where album art is supposed to go, and closing all the windows (main/mini) trapped me, forcing me to close VLC from the taskbar.
-
 * Possible graphical issues - I'm a perfectionist, and I tried my best to replicate WMP12, however VLC's skin editor is EXTREMELY buggy, so some things may not work properly for you. If this is the case, I apologize, but there's nothing I can do.
 
 ### Function Bugs
 
 * Linux OS users may see issues with cursors. This is not a bug with the skin, but some UI/UX bug between VLC and Linux.
 
-* The progress bar (Click to Seek) can be clicked to seek through the song/video, but it may require a precise click from the user/click the progress slider then the seek bar.
+* The progress bar (Click to Seek) can be clicked to seek through the song/video, but it may require a precise click from the user/click the progress slider then the seek bar. (The visible seek track is only 3 pixels tall and VLC's skin engine does per-pixel hit testing, so this cannot be improved without redrawing the slider artwork.)
+
+* Exiting full-screen with the on-screen button returns you to the regular player. Exiting with ESC or double-click instead leaves you in the mini-player (VLC skins have no "fullscreen ended" event to hook, so the skin cannot restore the window automatically on those paths - click the maximize button to get back).
 
 ## Submitting Bugs
 
