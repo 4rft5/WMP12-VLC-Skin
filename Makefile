@@ -24,11 +24,20 @@ all: win10 win7
 # Note: VLC expects theme.xml at the archive root with plain entry names,
 # so the recipes cd into the folder and glob instead of using `tar -C dir .`
 # (which prefixes every entry with "./" and breaks VLC's theme lookup).
+#
+# Entry order matters for load time: VLC's skins2 loader re-opens the
+# archive for every file it extracts, and a gzipped tar cannot seek, so
+# reading entry N decompresses everything before it. With the 21 MB
+# Microsoft Yahei.ttf in the middle (alphabetical order), every file
+# after it pays that cost again (~480 MB of total decompression, several
+# seconds). Listing theme.xml first and the fonts last keeps it fast.
+SKIN_FILES := theme.xml skin.dtd *.png *.PNG *.ttf
+
 win10:
-	cd Windows10 && tar --exclude=Thumbs.db -czf ../$(WIN10_VLT) *
+	cd Windows10 && tar --exclude=Thumbs.db -czf ../$(WIN10_VLT) $(SKIN_FILES)
 
 win7:
-	cd Windows7 && tar --exclude=Thumbs.db -czf ../$(WIN7_VLT) *
+	cd Windows7 && tar --exclude=Thumbs.db -czf ../$(WIN7_VLT) $(SKIN_FILES)
 
 clean:
 ifeq ($(OS),Windows_NT)
